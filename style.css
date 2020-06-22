@@ -1,0 +1,37 @@
+.center-text{
+  text-align: center;
+}
+.img-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+body{
+  background-color: yellowgreen;
+  
+}
+
+h1{ 
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  background: lightblue url(/img/cheese.jpg);
+  color: lightcyan;
+}
+
+h2{
+  padding-top: 20px;
+}
+
+hr{
+  height:5px;
+}
+
+p{
+  padding:10px 50px;
+}
+
+a{
+  text-align:center;
+}
