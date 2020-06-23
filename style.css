@@ -1,6 +1,7 @@
 .center-text{
   text-align: center;
 }
+/* centering the image through margin*/
 .img-center {
   display: block;
   margin-left: auto;
@@ -28,11 +29,11 @@ h2{
 hr{
   height:5px;
 }
-
+/*to make the text stay in the center of the page, not getting to close to the border */
 p{
   padding:10px 50px;
 }
-
+/* centering links */
 a{
   text-align:center;
 }
