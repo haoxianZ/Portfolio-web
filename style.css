@@ -37,3 +37,22 @@ p{
 a{
   text-align:center;
 }
+
+/* original */
+a {
+  color: blue;
+}
+
+/* Visited links */
+a:visited {
+  color: red;
+}
+/* Hover state */
+a:hover {
+  color: green; 
+}
+
+/* Active state */
+a:active {
+  color: pink;
+}
