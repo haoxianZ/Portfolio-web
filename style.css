@@ -56,3 +56,56 @@ a:hover {
 a:active {
   color: pink;
 }
+/* for responsive layout
+Mobile First */
+.badge {
+  justify-content: space-evenly;
+}
+.group {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap-reverse;
+}
+.item {
+  flex: 1;
+  margin: 10px;
+  flex-grow: 1;
+  align-self: baseline;
+}
+.wrapper {
+  width: 100%;
+}
+img{
+  width:100%;
+}
+@media all and (min-width: 600px){
+  .group {
+    flex-direction: row;
+  }
+  .wrapper{
+    width:80%;
+    margin:auto;
+  }
+
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+  }
+
+  header h1 {
+    font-size: 42px;
+    margin: 14px 0;
+    padding-top: 6px;
+  }
+  
+  header nav {
+    margin-top: 14px;
+    
+  }
+
+  header nav ul li a:hover {
+    color: #bdbdbd;
+  }
+}
