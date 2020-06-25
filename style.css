@@ -78,6 +78,12 @@ Mobile First */
 img{
   width:100%;
 }
+/*for input form */
+form input,
+form textarea{
+  width:100%
+}
+/*for responsive layout*/
 @media all and (min-width: 600px){
   .group {
     flex-direction: row;
