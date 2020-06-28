@@ -15,11 +15,30 @@ body{
   
 }
 
+header{
+  background-color:#0496FF;
+  
+}
 h1{ 
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 30px;
-  background: lightblue url("cheese.jpg");
+  font-family:'Gochi Hand', cursive;
+  font-size: 52px;
   color: lightcyan;
+}
+header nav{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+}
+header nav ul {
+  display: flex;
+  flex-direction:row;
+  padding-left: 0;
+  list-style: none;
+}
+header nav ul li a{
+  font-family:Montserrat;
+  margin:0 20px;
+  text-decoration: none;
 }
 
 h2{
