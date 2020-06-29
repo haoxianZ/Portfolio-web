@@ -19,6 +19,8 @@ header{
   background-color:#0496FF;
   
 }
+#logo { height: 100px; width: 200px; overflow: hidden; }
+
 h1{ 
   font-family:'Gochi Hand', cursive;
   font-size: 52px;
