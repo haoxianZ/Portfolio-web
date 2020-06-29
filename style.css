@@ -3,11 +3,9 @@
 }
 /* centering the image through margin*/
 .img-center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  height:500px;
+  max-width: 500px;
+  width:50%;
+  text-align: center;
 }
 
 body{
@@ -112,7 +110,11 @@ form textarea{
     width:80%;
     margin:auto;
   }
-
+.item p{
+      min-width: 300px;
+      max-width: 600px;
+      min-height: 100px;
+  }
 
   header {
     display: flex;
